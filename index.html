@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body {
+            margin-top: 20px;
+            background-color: #ccc;
+        }
+
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .custom-underline {
+            border-bottom: 6px solid; 
+            display: inline-block; 
+            padding-bottom: 5px; 
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="5000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://i.pinimg.com/originals/02/83/bb/0283bbc5a5abffd81997a357d076f043.gif" />
+                </div>
+                <div data-bs-interval="5000" class="carousel-item">
+                    <img class="d-block w-100" src="https://i.pinimg.com/originals/33/4a/7b/334a7b5bd9d76a0c3e5021f3eb372754.gif" />
+                </div>
+                <div data-bs-interval="5000" class="carousel-item">
+                    <img class="d-block w-100" src="https://i.pinimg.com/originals/48/d2/d4/48d2d446903509f10103848b5fe648b9.gif" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators"> 
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+          <!-- Site com grid responsivo -->
+    <div id="cards" class="container row mt-5">
+        <h1 class="custom-underline">Todos os cards abaixo</h1>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/ab/72/18/ab7218834a8b3227c75c695e68d0f617.jpg" class="card-img-top" alt="Zoro">
+                <div class="card-body">
+                    <h5 class="card-title">Zoro Sola</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/11/30/fb/1130fb552bc989c32522e7bf4d095a30.jpg" class="card-img-top" alt="Ace">
+                <div class="card-body">
+                    <h5 class="card-title">Portgas D Ace</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/da/4c/a0/da4ca0b62cfe3d37dd69a2716b404e54.jpg" class="card-img-top" alt="Law">
+                <div class="card-body">
+                    <h5 class="card-title">Trafalgar D. Water Law</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/c4/97/86/c49786df9b096252aa03f39a37a20c20.jpg" class="card-img-top" alt="Sanji">
+                <div class="card-body">
+                    <h5 class="card-title">Vinsmoke Sanji</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/af/5e/e4/af5ee4dcb53d6189d96661ffb424525c.jpg" class="card-img-top" alt="Nami">
+                <div class="card-body">
+                    <h5 class="card-title">Nami a Gatuna</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/564x/27/5b/df/275bdfe799f1281192c2d8000913498b.jpg" class="card-img-top" alt="Chopper">
+                <div class="card-body">
+                    <h5 class="card-title">Doutor Chopper</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
